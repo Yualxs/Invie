@@ -1,0 +1,447 @@
+body
+{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+section
+{
+	flex: 1;
+}
+
+table
+{
+	width: 100%;
+}
+
+th
+{
+	padding: 10px 20px;
+	background: #273b47;
+	color: white;
+}
+
+td
+{
+	padding: 20px;
+	text-align: center;
+}
+
+table, td, th
+{
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+input
+{
+	outline: 0;
+}
+
+textarea
+{
+	outline: 0;
+	width: 194px;
+	height: 114px;
+}
+
+input:focus, textarea:focus
+{
+	background: lightgray;
+}
+
+.contenedor
+{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.fondo
+{
+	background: #1F313C;
+	background-size: cover;
+}
+
+.button 
+{
+	border-radius: 8px;
+	border: none;
+	background: #fd324e;
+	color: white;
+	padding: 7px 12px;
+	cursor: pointer;
+	text-decoration: none;
+	background: linear-gradient(to left, #fe344e, #ff7250);
+	transition: .2s;
+	box-shadow: inset 0px -4px 0px rgba(0, 0 ,0, .3);
+}
+
+.superior
+{
+	font-size: 18px;
+}
+
+.inferior
+{
+	font-size: 12px;
+}
+
+a:hover
+{  
+	transform: scale(0.9);
+}
+
+.inferior:active
+{  
+	transform: scale(0.9);
+}
+
+
+
+.titulo
+{
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 15px;
+	margin-top: 170px;
+}
+
+.titulo span
+{
+	text-decoration: underline;
+}
+
+.title-p
+{
+	font-size: 24px;	
+	margin-top: 0;
+}
+
+
+.title-a
+{
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.title-b
+{
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.guitarras
+{
+	color: #1F313C;
+	margin-bottom: 55px;
+}
+
+.guitarras h2
+{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 10px;
+}
+
+.portada
+{
+	color: white;
+	height: 550px;
+	background: url(../images/background.png);
+	background-size: cover;
+	margin-top: 2px;
+	padding-top: 5px;
+
+}
+
+.contenedor .portada 
+{
+	height: 350px;
+
+}
+
+.portada button
+{
+	margin-bottom: 70px;
+}
+
+.menu
+{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.menu li
+{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menu li:before
+{
+	content: '|';
+	font-size: 50px;
+	line-height: 20px;
+	color: white;
+}
+
+.menu a
+{
+	color: white;
+	text-decoration: none;
+	padding-top: 15px;
+}
+
+.logotipo
+{
+	display: inline-block;
+	margin-left: 0;
+}
+
+
+nav a:hover 
+{
+  box-shadow: inset 0 5px 0 #fe344e;
+}
+
+nav a.activado 
+{
+  box-shadow: inset 0 5px 0 #7dcd40;
+}
+
+
+.guitarra
+{
+	margin: 10px 10px 40px 10px;
+	padding: 10px;
+/*	overflow: hidden;*/
+	border: 1px solid #1F313C;
+	border-radius: 8px;
+}
+
+.guitarra ol
+{
+/*	padding: 0;*/
+}
+
+.guitarra.b
+{
+	height: 190px;
+}
+
+.derecha
+{
+	float: right;
+	position: relative;
+	top: -97px;
+	right: 35px;
+  transition: .1s;
+}
+
+
+.derecha:hover
+{
+  transform: translateX(50px) translateY(-14px) scale(1.1);
+}
+
+.izquierda:hover 
+{
+  transform: rotate(-5deg) scale(1.1);
+}
+
+
+
+.izquierda
+{
+	float: left;
+	position: relative;
+	bottom: 10px;
+  transition: .1s;
+}
+
+.contenedor-guitarra-a
+{
+	padding-left: 35px;
+	padding-bottom: 10px;
+}
+
+.contenedor-guitarra-b
+{
+	margin-left: 380px;
+	position: relative;
+	bottom: 30px;
+}
+
+.encabezado
+{
+	position: relative;
+	background: #1F313C;
+	background-size: cover;
+}
+
+.footer
+{
+	background: #1F313C;
+	padding: 10px 10px;
+}
+
+.contacto
+{
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.contacto img
+{
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-bottom: -70px;
+
+}
+
+.contacto strong
+{
+	display: block;
+}
+
+.contacto a
+{
+	color: white;
+	text-decoration: none;
+}
+
+.footer .contenedor
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario
+{
+	color: white;
+}
+
+.col1, .col2
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1
+{
+	margin-right: 25px; 
+	width: 200px;
+}
+
+
+.col2
+{
+	align-items: flex-start;
+	width: 200px;
+}
+
+.col2 .button
+{
+	margin-top: 15px;
+}
+
+/*.intereses label
+{
+	font-size: 12px;
+	margin-top: 10px;
+}*/
+
+.intereses
+{
+	font-size: 12px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.intereses-1, .intereses-2
+{
+
+	align-content: flex-start;
+	width: 100px;
+}
+
+.formulario label
+{
+	margin-bottom: 10px;
+}
+
+.sexo
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+
+.tabla
+{
+	margin: 50px 0;
+}
+
+.mujer, .varon
+{
+	width: 100px;
+}
+
+.contacto-formulario
+{
+	display: flex;
+	justify-content: center;
+}
+
+.contacto-titulo p
+{
+	font-size: 20px;
+	margin-bottom: -5px;
+}
+
+.contacto-titulo
+{
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+
+.dato
+{
+	display: flex;
+	justify-content: center;
+	width: 300px;
+}
+
+.dato-contacto
+{
+	display: block;
+	width: 150px;
+	text-align: center;
+	color: white;
+}
+
+.dato-contacto a
+{
+	font-size: 13px;
+}
+
+.dato-contacto p
+{
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+}
