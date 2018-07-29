@@ -23,6 +23,7 @@ body
 	display: inline-block;
 	position: absolute;
 	right: 0;
+	margin-top: 6px;
 }
 
 .menu li
@@ -68,12 +69,12 @@ body
 }
 
 
-nav a:hover 
+nav a:hover
 {
   box-shadow: inset 0 5px 0 #fe344e;
 }
 
-nav a.activado 
+nav a.activado
 {
   box-shadow: inset 0 5px 0 #7dcd40;
 }
@@ -117,14 +118,14 @@ form
 
 
 
-.portada 
+.portada
 {
   position: relative;
   margin-top: 2px;
   margin-bottom: 20px;
 }
 
-.portada .description 
+.portada .description
 {
   background: rgba(255, 255, 255, .8);
   position: absolute;
@@ -133,7 +134,7 @@ form
   padding: 20px;
 }
 
-.blog 
+.blog
 {
   width: 1000px;
   margin: 0 auto;
@@ -162,24 +163,24 @@ form
   justify-content: space-between;
 }
 
-.blog-items h3 
+.blog-items h3
 {
   font-weight: 600;
   margin: 10px 0 15px;
 }
 
-.item-blog 
+.item-blog
 {
   width: 300px;
 }
 
 
-.item-blog .description 
+.item-blog .description
 {
   margin-bottom: 15px;
 }
 
-.autor 
+.autor
 {
   display: flex;
   justify-content: space-between;
@@ -190,19 +191,19 @@ form
   padding-bottom: 20px;
 }
 
-.autor img 
+.autor img
 {
   border-radius: 50%;
   vertical-align: middle;
   margin-right: 5px;
 }
 
-.autor p 
+.autor p
 {
   margin: 0;
 }
 
-.paginador 
+.paginador
 {
   display: flex;
   justify-content: center;
@@ -210,7 +211,7 @@ form
   padding: 20px 0;
 }
 
-.paginador ul 
+.paginador ul
 {
   display: flex;
   list-style: none;
@@ -219,7 +220,7 @@ form
   margin-left: 10px;
 }
 
-.paginador li 
+.paginador li
 {
   background: #eaeaea;
   height: 40px;
@@ -229,17 +230,16 @@ form
   margin: 0 5px;
 }
 
-.paginador li.selected 
+.paginador li.selected
 {
   border-color: transparent;
   background: white;
 }
 
-.paginador a 
+.paginador a
 {
   padding: 0 10px;
   text-decoration: none;
   display: block;
   height: inherit;
 }
-
